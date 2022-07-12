@@ -58,14 +58,14 @@ ul li:hover a:before{
 @media (max-width: 768px) {
 
     /* Menu */
-    .menu__nav{
-        display:none;
-    }
+   
 }
 
 
 
 /*Mobile*/
 @media (max-width: 425px) {
-
+    .menu__nav{
+        display:none;
+    }
 }
