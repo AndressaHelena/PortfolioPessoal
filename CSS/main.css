@@ -1,13 +1,13 @@
 
-@import url(about.css);
-@import url(academic.css);
-@import url(experience.css);
-@import url(footer.css);
-@import url(formcontato.css);
-@import url(hobbies.css);
-@import url(menu.css);
-@import url(skills.css);
-@import url(title.css);
+@import url(./about.css);
+@import url(./academic.css);
+@import url(./experience.css);
+@import url(./footer.css);
+@import url(./formcontato.css);
+@import url(./hobbies.css);
+@import url(./menu.css);
+@import url(./skills.css);
+@import url(./title.css);
 
 *{
     padding: 0;
