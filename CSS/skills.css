@@ -42,5 +42,13 @@ section.skills{
 }
 /*Mobile*/
 @media (max-width: 425px) {
-
+    .skills__line{
+        grid-template-columns: auto;
+        width: 100%;
+        
+    }
+    .skills__img{
+        width: 70%;
+        padding: 20px;
+    }
 }

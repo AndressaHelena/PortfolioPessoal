@@ -67,10 +67,9 @@
         width:90%;
 }
 .formcontato__img{
-    justify-content:center;
-    height: 90%;
-    padding: 10px;
+    width: 100%;
     margin-top: 20px;
+    padding-inline: auto;
 }
 
 .formcontato__input, 

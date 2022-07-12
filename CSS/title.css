@@ -4,7 +4,7 @@ section.title{
     width: 90%;
     height: 350px;
     margin-inline: auto;
-   padding-top: 5%;
+    padding-top: 5%;
 }
 
 .title{
@@ -16,12 +16,15 @@ section.title{
   .title__bio{
      margin-top: 30px;
      font-family: 'Roboto', sans-serif;
-     
+     width: 90%;
+     color: var(--button);
      
   }
   .title__subsection{
      margin-top: 30px;
      line-height:1.5;
+     width: 90%;
+     color: var(--gray-text);
   }
  
   .title__network {
@@ -56,10 +59,10 @@ section.title{
     section.title{
         display: flex;
         justify-content: center;
-         gap: 5px;
-         width: 90%;
-         height: 600px;
-         font-weight: 700;
+        gap: 5px;
+        width: 90%;
+        height: 600px;
+        font-weight: 700;
      
     }
     
@@ -72,7 +75,9 @@ section.title{
 
 /*Mobile*/
 @media (max-width: 425px) {
-
+    .ilustracao{
+        margin-top: 40px;
+       }
 }
 
     

@@ -9,7 +9,7 @@ section.hobbies{
     grid-template-columns: auto auto auto;
     margin-top: 60px;
     margin-inline: auto;
-    margin-bottom: 20px;
+    padding: 10px;
     width: 70%;
 
 
@@ -39,5 +39,9 @@ section.hobbies{
 }
 /*Mobile*/
 @media (max-width: 425px) {
-
+    .hobbies__line{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
 }
