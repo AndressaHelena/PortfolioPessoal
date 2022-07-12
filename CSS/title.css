@@ -71,12 +71,19 @@ section.title{
        
     }
 }
-
+@media screen and (max-width: 768px){
+    .ilustracao{
+        margin-top:200px;
+        justify-content: center;
+        overflow-wrap: break-word;
+       }
+}
 
 /*Mobile*/
 @media (max-width: 425px) {
     .ilustracao{
-        margin-top: 40px;
+        margin-top: 100px;
+        justify-content: center;
        }
 }
 

@@ -57,28 +57,28 @@
 }
 
 @media  (max-width: 768px){
-.formcontato{
-        display: block;
-        flex-direction: column;
+    .formcontato{
+            display: block;
+            flex-direction: column;
+            width: 100%;
+            padding: 0;
+    }
+    .formcontato__text{
+            width:90%;
+    }
+    .formcontato__img{
         width: 100%;
-        padding: 0;
-}
-.formcontato__text{
-        width:90%;
-}
-.formcontato__img{
-    width: 100%;
-    margin-top: 20px;
-    padding-inline: auto;
-}
+        margin-top: 10px;
+        padding-inline: auto;
+    }
 
-.formcontato__input, 
-.formcontato__textarea,
-.formcontato__botao{
-   
-    margin-top: 5px;
-    width: 90%;
-   
-}
+    .formcontato__input, 
+    .formcontato__textarea,
+    .formcontato__botao{
+    
+        margin-top: 5px;
+        width: 90%;
+    
+    }
 }
 
