@@ -1,7 +1,6 @@
 header{
     color: var(--color-blue);
     margin-top: 0;
-   
     
     font-family: 'Allura',sans-serif;
     font-size: 25px;
@@ -34,6 +33,7 @@ section.menu{
 ul li a{
     text-transform: uppercase;
     position: relative;
+    list-style: none;
 
 }
 
