@@ -26,8 +26,9 @@ section.skills{
     padding: auto;
 }
 .skills__name{
-    text-align: start;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 10px;
+    
 }
 
 .skills__box{
