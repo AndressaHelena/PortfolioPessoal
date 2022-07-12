@@ -20,7 +20,7 @@ section.skills{
     padding: 20px;
     width: 70%;
     margin-inline: auto;
-    
+    justify-content: center;
 }
 .skills__img{
     padding: auto;
