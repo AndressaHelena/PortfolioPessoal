@@ -1,0 +1,40 @@
+.academic{
+    padding-top: 5%;
+}
+
+.academic__courses{
+    width: 70%;
+    margin-inline: auto;
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+}
+
+.academic__title{
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-blue);
+    padding-bottom: 5%;  
+}
+
+.academic__courses__list{
+    color: var(--gray-text);
+    text-align: center;
+    width: 80%;
+    margin-inline: auto;
+    padding-bottom: 40%;
+    
+}
+
+
+    @media  (max-width: 768px){
+        .academic__courses{
+            display: block;
+            flex-direction: column;
+            width: 90%;
+            padding: 0;
+            margin-inline: auto;
+            border: solid 1px red;
+        }
+    }

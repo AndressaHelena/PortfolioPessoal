@@ -1,0 +1,45 @@
+section.skills{
+    
+    margin: auto;
+    padding-top: 5%;
+    
+    width: 90%;
+    align-items: center;
+
+    
+}
+.skills__title{
+    text-align: center;
+    font-size: 30px;
+    color: var(--color-blue);  
+}
+
+.skills__line{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 20px;
+    width: 70%;
+    margin-inline: auto;
+    
+}
+.skills__img{
+    padding: auto;
+}
+.skills__name{
+    text-align: start;
+    margin-top: 20px;
+}
+
+.skills__box{
+    margin-inline: 10px;
+}
+
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+}
+/*Mobile*/
+@media (max-width: 425px) {
+
+}

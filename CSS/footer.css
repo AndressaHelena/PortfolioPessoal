@@ -1,0 +1,13 @@
+.footer__rodape{
+height: 60px;
+padding: 15px;
+margin: auto;
+text-align: center;
+background-color: var(--dark-gray);
+}
+
+@media screen and (min-width: 1440px) {
+    .footer__rodape {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,85 @@
+.formcontato{
+    background-color: var(--light-gray);  
+    height: 550px;
+    display: flex;
+    justify-content:center;
+    padding: 5%;
+      
+}
+
+.formcontato__img{
+    justify-content:center;
+    height: 80%;
+    padding: 20px;
+    margin-top: 40px;
+
+}
+
+.formcontato__text{
+    width:50%;
+    margin-left: 50px;    
+}
+
+.formcontato__input, 
+.formcontato__textarea,
+.formcontato__botao{
+    outline: none;
+    border: none;
+    margin-top: 15px;
+    padding:10px;
+    width: 80%;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.formcontato__input{
+    display: block;
+ 
+}
+.formcontato__textarea{
+    resize: none;
+
+}
+
+.formcontato__botao{
+    text-transform: uppercase;
+    display: block;
+    background-color: var(--color-blue);
+    margin-top:  15px;
+    color: var(--cor-de-fundo);
+    cursor: pointer;
+}
+.formcontato__botao:hover{
+    opacity: 1;
+    background-color: var(--dark-gray);
+    color: var(--button);
+    
+}
+
+@media  (max-width: 768px){
+.formcontato{
+        display: block;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+}
+.formcontato__text{
+        width:90%;
+}
+.formcontato__img{
+    justify-content:center;
+    height: 90%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.formcontato__input, 
+.formcontato__textarea,
+.formcontato__botao{
+   
+    margin-top: 5px;
+    width: 90%;
+   
+}
+}
+
